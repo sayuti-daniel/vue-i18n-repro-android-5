@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script
+      src="https://browser.sentry-cdn.com/5.28.0/bundle.min.js"
+      integrity="sha384-1HcgUzJmxPL9dRnZD2wMIj5+xsJfHS+WR+pT2yJNEldbOr9ESTzgHMQOcsb2yyDl"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      Sentry.init({
+        dsn:
+          "https://1a23b4b7374a475d89628d2aa1320c49@o326460.ingest.sentry.io/5544468",
+      });
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
